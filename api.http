@@ -1,0 +1,10 @@
+
+get http://localhost:3000/projects
+
+###
+post http://localhost:3000/projects
+Content-Type: application/json
+
+{
+  "name":"qweqwe"
+}
