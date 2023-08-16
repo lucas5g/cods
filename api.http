@@ -8,3 +8,12 @@ Content-Type: application/json
 {
   "name":"qweqwe"
 }
+
+###
+post http://localhost:3000/clients
+Content-Type: application/json
+
+{
+  "name":"qweqwe",
+  "projectId":5
+}
